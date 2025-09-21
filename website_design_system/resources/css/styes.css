@@ -1,6 +1,6 @@
 body {
     max-width: 960px;
-    margin: 0 10%;
+    margin: 0 auto;
 }
 
 section {
@@ -64,6 +64,7 @@ section.text-styles h2 {
 
 section.text-styles p {
     font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1 {
