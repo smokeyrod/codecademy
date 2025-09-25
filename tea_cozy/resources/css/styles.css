@@ -16,6 +16,8 @@ header {
     position: fixed;
     width: 100%;
     border-bottom: 1px solid seashell;
+    z-index: 1;
+    background-color: black;
 }
 
 .logo img {
@@ -30,10 +32,72 @@ header {
 main {
     top: 69px;
     position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 section#mission {
-    display: block;
+    display: flex;
     height: 700px;
     background: url('../images/img-mission-background.webp');
+    align-items: center;
+    margin: 0 auto;
+}
+
+#hero-description {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+
+h2, h3, h4, h5, p, a {
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+}
+
+section#featured-tea {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1000px;
+}
+
+#featured-panels {
+    display: flex;
+    justify-content: center;
+    gap: 20px;   /* Space between panels */
+    flex-wrap: wrap;
+}
+
+.panel img {
+    width: 300px;
+}
+
+section#locations {
+    height: 500px;
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+    background: url(../images/img-locations-background.webp);
+}
+
+.location-panels {
+    display: flex;
+    justify-content: center;
+    gap: 40px;   /* Space between panels */
+    flex-wrap: wrap;
+}
+
+.location-panel {
+    width: 300px;
+    background-color: black;
+}
+
+section#contact {
+    text-align: center;
+}
+
+footer {
+    margin-top: 100px;
+    padding: 0 20px;
 }
