@@ -22,8 +22,18 @@ header {
     height: 50px;
 }
 
-
 .navigation {
     display: flex;
     gap: 20px;
+}
+
+main {
+    top: 69px;
+    position: relative;
+}
+
+section#mission {
+    display: block;
+    height: 700px;
+    background: url('../images/img-mission-background.webp');
 }
